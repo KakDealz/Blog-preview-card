@@ -77,3 +77,20 @@ figure {
     font-weight: 800;
 }
 
+.yellow_bg {
+    width: 82px;
+    height: 29px;
+    background-color: rgb(244, 208, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+
+}
+
+.description {
+    color: rgb(107, 107, 107)
+}
+
+
