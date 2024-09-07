@@ -13,15 +13,24 @@ body {
     border: 1px solid rgb(17, 17, 17);
     border-radius: 20px;
     box-shadow: 8px 8px;
-    margin: auto;
     padding: 24px;
     display: flex;
     flex-direction: column;
+    gap: 24px;
+}
+
+article {
+    height: 100%;
+    width: 100%;
 }
 
 .image {
     width: 336px;
     height: 200px;
+}
+
+.image img {
+    border-radius: 10px;
 }
 
 .text {
@@ -39,7 +48,17 @@ body {
     height: 32px;
 }
 
-.avatar p {
-    weight: 85px;
+.avatar figcaption {
+    width: 85px;
     height: 21px;
+}
+
+figure {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
 }
