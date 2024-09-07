@@ -1,5 +1,9 @@
 body {
     background-color: rgb(244, 208, 78);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .card {
@@ -9,4 +13,6 @@ body {
     border: 1px solid rgb(17, 17, 17);
     border-radius: 20px;
     box-shadow: 8px 8px;
+    margin: auto;
+    padding: 24px;
 }
