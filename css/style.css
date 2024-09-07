@@ -23,9 +23,9 @@ body {
     box-shadow: 8px 8px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
     justify-content: center;
     align-items: center;
+    gap: 24px;
     margin: 0;
 }
 
@@ -51,6 +51,7 @@ article {
 .avatar {
     width: 129px;
     height: 32px;
+    
 }
 
 .avatar img {
@@ -76,6 +77,14 @@ figure {
     font-weight: 800;
 }
 
+h1 {
+    transition: color 0.15s ease-out 5ms
+}
+
+h1:hover {
+    color: rgb(244, 208, 78)
+}
+
 .yellow_bg {
     width: 82px;
     height: 29px;
@@ -85,7 +94,6 @@ figure {
     align-items: center;
     border-radius: 4px;
     font-size: 14px;
-
 }
 
 .description {
