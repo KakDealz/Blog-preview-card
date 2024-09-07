@@ -13,10 +13,12 @@ body {
     border: 1px solid rgb(17, 17, 17);
     border-radius: 20px;
     box-shadow: 8px 8px;
-    padding: 24px;
     display: flex;
     flex-direction: column;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 article {
