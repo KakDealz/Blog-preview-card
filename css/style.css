@@ -59,8 +59,8 @@ article {
 }
 
 .avatar figcaption {
-    width: 85px;
-    height: 21px;
+   display: inline;
+   text-wrap: nowrap;
 }
 
 figure {
