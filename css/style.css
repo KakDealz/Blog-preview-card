@@ -50,7 +50,8 @@ article {
 .avatar {
     width: 129px;
     height: 32px;
-    
+    align-self: flex-start;
+    margin-left: 30px;
 }
 
 .avatar img {
