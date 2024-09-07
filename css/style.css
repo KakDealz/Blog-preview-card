@@ -1,9 +1,17 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url(/font/Figtree-VariableFont_wght.woff2) format('woff2');
+    font-weight: 500 800;
+    font-style: normal;
+}
+
 body {
     background-color: rgb(244, 208, 78);
     display: flex; 
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Figtree', sans-serif;
 }
 
 .card {
@@ -64,3 +72,8 @@ figure {
     justify-content: center;
     align-items: center;
 }
+
+.yellow_bg, h1, figcaption {
+    font-weight: 800;
+}
+
